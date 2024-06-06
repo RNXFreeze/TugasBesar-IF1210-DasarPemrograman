@@ -16,7 +16,8 @@
 # Penanggung Jawab F14 - 2 : 19623055 / Athian Nugraha Muarajuang
 
 # KAMUS
-# csplit , cstrip , load : procedure
+# csplit , cstrip : function
+# load : procedure
 
 # ALGORITMA
 import os , argparse
@@ -70,7 +71,7 @@ def load() :
     # F.S. Data pada csv_directory telah tersimpan ke matrix of data.
     
     # KAMUS LOKAL
-    # csplit , cstrip : procedure
+    # csplit , cstrip : function
     # parser , args : ArgumentParser
     # folder , path_folder , csv_directory , row path_user , path_monster , path_inv_item , path_inv_monster , path_shop_item , path_shop_monster : string
     # path_data : array of string

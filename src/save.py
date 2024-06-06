@@ -16,7 +16,8 @@
 # Penanggung Jawab F15 - 2 : 19623065 / Muhammad Alfansya
 
 # KAMUS
-# cmap , cjoin , save : procedure
+# cmap , cjoin : function
+# save : procedure
 
 # ALGORITMA
 import os , time

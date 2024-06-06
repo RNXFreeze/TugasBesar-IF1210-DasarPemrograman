@@ -20,6 +20,7 @@
 # ALGORITMA
 def logout(check_login) :
     # SPESIFIKASI LOKAL
+    # Melakukan proses logout seorang pengguna.
     # I.S. Variabel check_login telah terdefinisi di awal.
     # F.S. Variabel check_login berubah menjadi False di akhir.
     

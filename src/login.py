@@ -20,7 +20,8 @@
 # ALGORITMA
 def login(data_user , check_login , username_login , admin , user_loggedin) :
     # SPESIFIKASI LOKAL
-    # Melakukan proses login dari kondisi tidak login.
+    # I.S. Data user dan login telah terdefinisi di awal.
+    # F.S. Memperbarui data user_loggedin terbaru jika dilakukan proses login.
     
     # KAMUS LOKAL
     # data_user , user : matrix of data

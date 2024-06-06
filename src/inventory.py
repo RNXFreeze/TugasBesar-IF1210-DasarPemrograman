@@ -10,7 +10,7 @@
 # Instansi : Sekolah Teknik Elektro dan Informatika (STEI) Institut Teknologi Bandung (ITB)
 # Nama File : inventory.py
 # Topik : Tugas Besar Dasar Pemrograman 2024
-# Tanggal : Jumat, 17 Mei 2024
+# Tanggal : Senin, 20 Mei 2024
 # Deskripsi : Subprogram F07 - Inventory
 # Penanggung Jawab F07 : 16523135 / Aleta Edna Jessalyn
 

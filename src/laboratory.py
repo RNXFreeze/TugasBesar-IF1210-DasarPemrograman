@@ -12,7 +12,7 @@
 # Topik : Tugas Besar Dasar Pemrograman 2024
 # Tanggal : Senin, 20 Mei 2024
 # Deskripsi : Subprogram F11 - Laboratory
-# Penanggung Jawab F07 : 16523135 / Aleta Edna Jessalyn
+# Penanggung Jawab F11 : 16523245 / Dede Firman
 
 # KAMUS
 # laboratory : function

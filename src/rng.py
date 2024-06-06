@@ -24,16 +24,22 @@ a = 19623065
 c = 19623215
 m = 2 ** 15
 seed = int((os.getpid()) % (time.time()))
-def create_lcg(seed=[int((os.getpid()) % (time.time()))]) :
+def create_lcg(seed = [int((os.getpid()) % (time.time()))]) :
     # SPESIFIKASI LOKAL
     # Fungsi ini akan mengeluarkan suatu bilangan unik tergantung dari Process ID dan Time saat digunakan.
      
     # KAMUS LOKAL
     # lcg : function
-    # seed , a , c , m : integer
 
     # ALGORITMA LOKAL
     def lcg() :
+        # SPESIFIKASI LOKAL
+        # Fungsi ini akan mengeluarkan suatu bilangan unik baru setelah mengutak-atik bilangan yang dihasilkan sebelumnya oleh suatu konstanta khusus.
+        
+        # KAMUS LOKAL
+        # seed , a , c , m : integer
+
+        # ALGORITMA LOKAL
         seed[0] = (a * seed[0] + c) % m
         return (seed[0])
     return (lcg)

@@ -20,10 +20,12 @@
 # ALGORITMA
 def potion() :
     # SPESIFIKASI LOKAL
+    # Menampilkan data tentang potion dalam permainan.
     # I.S. Jenis-jenis potion & efeknya telah terdefinisi di awal.
     # F.S. Menampilkan jenis-jenis potion beserta efeknya ke layar.
 
     # KAMUS LOKAL
+    # a : string
     # keluar : boolean
 
     # ALGORITMA LOKAL
@@ -47,6 +49,6 @@ def potion() :
     keluar = False
     while (not(keluar)) :
         a = input('Masukkan "keluar" untuk kembali ke menu : ').lower()
-        if (a == 'keluar') :
+        if (a == "keluar") :
             keluar = True
     return()

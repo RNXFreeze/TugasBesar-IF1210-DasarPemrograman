@@ -17,6 +17,7 @@
 # KAMUS
 # samain_panjang , print_mons , monster : procedure
 
+# ALGORITMA
 def samain_panjang(listmon) :
     # SPESIFIKASI LOKAL
     # Menyamakan panjang setiap subdata dari setiap monster.

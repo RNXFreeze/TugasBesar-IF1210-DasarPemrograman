@@ -21,6 +21,7 @@
 import time
 def convert(string) :
     # SPESIFIKASI LOKAL
+    # Memecah suatu string menjadi list / array of character.
     # I.S. Menerima input berupa string yang telah terdefinisi di awal.
     # F.S. String telah terpecah menjadi suatu list / array of character.
 
@@ -37,6 +38,7 @@ def convert(string) :
 
 def register(check_login , username_login , user , monster , inv_item , inv_monster) :
     # SPESIFIKASI LOKAL
+    # Melakukan proses register seorang pengguna baru.
     # I.S. Data check_login, username_login, user, monster, inv_item, dan inv_monster telah terdefinisi di awal.
     # F.S. Data pengguna baru telah tersimpan setelah memasukkan username dan password serta pilihan monster awal.
 

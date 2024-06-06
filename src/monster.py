@@ -35,7 +35,7 @@ def samain_panjang(listmon) :
         for j in range(len(listmon)) :
             if (b < len(listmon[j][i])) :
                 b = len(listmon[j][i])
-        for j in range(len(listmon)):
+        for j in range(len(listmon)) :
             hasil[j] = hasil[j] + listmon[j][i]
             if (b > len(listmon[j][i])) :
                 while (b > len(listmon[j][i])) :

@@ -72,5 +72,5 @@ def login(data_user , check_login , username_login , admin , user_loggedin) :
                     print("Username tidak terdaftar! \nSilakan register terlebih dahulu!")
                     return (check_login , username_login , admin , user_loggedin)
                 break
-        print(f'Selamat datang, Agent {username_login}!\nMasukkan command "help" untuk daftar perintah yang dapat kamu panggil.')
+        print(f'Selamat datang, {user_loggedin[3]} {username_login}!\nMasukkan command "help" untuk daftar perintah yang dapat kamu panggil.')
     return (check_login , username_login , admin , user_loggedin)

@@ -105,8 +105,8 @@ def battle(uid , username , role , oc , monster , inv_item , inv_monster) :
     # Melakukan algoritma battle sesuai spesifikasi yang telah dibuat.
 
     # KAMUS LOKAL
-    # show_enemy , show_team_monster : procedure
-    # generate , cint , cstr : function
+    # show_enemy , show_team_monster , cint , cstr : procedure
+    # generate : function
     # user , monster , inv_item , inv_monster : matrix of data
     # username , role : string
     # uid , oc , get_oc , num , turn , m : integer

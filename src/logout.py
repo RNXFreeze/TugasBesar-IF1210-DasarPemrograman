@@ -20,7 +20,8 @@
 # ALGORITMA
 def logout(check_login) :
     # SPESIFIKASI LOKAL
-    # Melakukan proses logout dari kondisi login.
+    # I.S. Variabel check_login telah terdefinisi di awal.
+    # F.S. Variabel check_login berubah menjadi False di akhir.
     
     # KAMUS LOKAL
     # check_login : boolean
@@ -35,7 +36,6 @@ def logout(check_login) :
         print("( `-'  ) | |  |)| | \  / |  | |     | |  |)| | |    | |`-' / |  `--. | |\ \   (`-' | | `-')| | \  / |  | |     | |  |)|   | `--.  | |  |)|  \  `-) )| | ")
         print(" `----'  |_|  (_) | |\/| |  /(      |_|  (_) `-'    /( `--'  /( __.' |_| \)\   \_ )| `---(_) | |\/| |  /(      |_|  (_)   |( __.' |_|  (_)  )\____/ `-' ")
         print("                  '-'  '-' (__)                    (__)     (__)         (__)    (_)         '-'  '-' (__)                (_)              (__)")
-        check_login = False
     else :
         print("Logout gagal!")
         print("Anda belum login, silahkan login terlebih dahulu.")

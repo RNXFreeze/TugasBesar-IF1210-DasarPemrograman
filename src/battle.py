@@ -187,7 +187,7 @@ def battle(uid , username , role , oc , monster , inv_item , inv_monster) :
         fight = False
         minum_round = False
         run = False
-        while (perintah != 3) and (not(fight)) :
+        while ((perintah != 3) and (not(fight))) :
             while (perintah == 2) :
                 cek = False
                 check_potion = False
@@ -195,7 +195,7 @@ def battle(uid , username , role , oc , monster , inv_item , inv_monster) :
                     if ((inv_item[i][0] == uid) and (inv_item[i][2] != 0) and ((inv_item[i][1] == "strength") or (inv_item[i][1] == "resilience") or (inv_item[i][1] == "healing"))) :
                         cek = True
                         break
-                if not(cek) :
+                if (not(cek)) :
                     print("Anda tidak memiliki Potion dalam inventory.")
                 else :
                     print("\n============ POTION LIST ============")
@@ -273,7 +273,7 @@ def battle(uid , username , role , oc , monster , inv_item , inv_monster) :
                         else :
                             print("")
                             break
-                        if not(check_potion) :
+                        if (not(check_potion)) :
                             time.sleep(1)
                             print("============ POTION LIST ============")
                             print(f"1. Strength Potion (Qty: {qty_s[1]}) - Increases ATK Power")

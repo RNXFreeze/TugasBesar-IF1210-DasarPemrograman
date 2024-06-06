@@ -22,6 +22,8 @@ from src.save import save
 def exit(check_logres , user , monster , inv_item , inv_monster , shop_item , shop_monster) :
     # SPESIFIKASI LOKAL
     # Melakukan proses keluar dari program yang sedang berjalan.
+    # I.S. Program sedang berjalan.
+    # F.S. Program berhenti melakukan proses dan keluar dari program yang sedang berjalan.
 
     # KAMUS LOKAL
     # save : procedure

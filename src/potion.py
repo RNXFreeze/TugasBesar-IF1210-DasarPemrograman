@@ -19,6 +19,7 @@
 
 # ALGORITMA
 def potion() :
+    # SPESIFIKASI LOKAL
     # I.S. Jenis-jenis potion & efeknya telah terdefinisi di awal.
     # F.S. Menampilkan jenis-jenis potion beserta efeknya ke layar.
 

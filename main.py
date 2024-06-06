@@ -16,7 +16,7 @@
 # Penanggung Jawab - 2 : 19623215 / Muhammad Raihan Nazhim Oktana
 
 # KAMUS UTAMA
-# register , login , logout , help , monster , potion , inventory , load , save , exit : procedure
+# register , login , logout , help , menu , monster , potion , inventory , load , save , exit : procedure
 # generate , battle , arena , shop , laboratory , manage_shop , monster_mng : function
 # data_user , data_monster , data_invent_item , data_invent_monster , data_item_shop , data_shop_monster : matrix of data
 # user_loggedin : array of string
@@ -30,7 +30,7 @@ import os , time
 from src.register import register
 from src.login import login
 from src.logout import logout
-from src.help import help, menu
+from src.help import help , menu
 from src.inventory import inventory
 from src.battle import battle
 from src.arena import arena
